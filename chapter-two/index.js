@@ -9,3 +9,7 @@ console.log(name);
 
 let firstName = "Prosper";
 let lastName = "Joseph";
+
+const interestRate = 0.3;
+interestRate = 1;
+console.log(interestRate);
