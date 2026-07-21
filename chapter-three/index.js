@@ -1,15 +1,6 @@
 let x = 10;
-let y = 3;
 
-// console.log(x + y);
-// console.log(x - y);
-// console.log(x * y);
-// console.log(x / y);
-// console.log(x ** y);
+x = x + 5;
+x += 5;
 
-// Increment (++)
-// console.log(x++);
-// console.log(x);
-
-// Decremnt (--)
-console.log(--x);
+x *= 3;
