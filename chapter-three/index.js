@@ -1,4 +1,8 @@
-let points = 110;
-let type = points > 100 ? "gold" : "silver";
+let highIncome = false;
+let goodCreditScore = false;
 
-console.log(type);
+let eligibleForLoan = highIncome || goodCreditScore;
+
+console.log(eligibleForLoan);
+
+let applicationRefused = !eligibleForLoan;
