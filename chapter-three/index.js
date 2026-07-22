@@ -1,8 +1,2 @@
-// falsy
-// short circuiting
-
-let userColor = undefined;
-let defaultColor = "blue";
-let currentColor = userColor || defaultColor;
-
-console.log(currentColor);
+console.log(1 | 2);
+console.log(1 & 2);
