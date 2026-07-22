@@ -1,8 +1,8 @@
-let highIncome = false;
-let goodCreditScore = false;
+// falsy
+// short circuiting
 
-let eligibleForLoan = highIncome || goodCreditScore;
+let userColor = undefined;
+let defaultColor = "blue";
+let currentColor = userColor || defaultColor;
 
-console.log(eligibleForLoan);
-
-let applicationRefused = !eligibleForLoan;
+console.log(currentColor);
